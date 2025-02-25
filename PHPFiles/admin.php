@@ -3,7 +3,7 @@
 
     if(!isset($_SESSION['loggedin']) || $_SESSION['loggedin'] !== true || !isset($_SESSION['adminUN']))
     {
-        header("location: /~ortij41/SEProj2025-Milestone");
+        header("location: /SEProj2025-Milestone/");
 
     }
     else
