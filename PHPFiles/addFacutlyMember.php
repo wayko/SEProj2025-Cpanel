@@ -8,6 +8,7 @@ $email = $_POST['email'];
 require 'dbconfig.php';
 if ($facultyID == null || $email == null || $fname == '' || $lname == '' )
 {
+    header("refresh:2; url=addFaculty.php");
     echo "Admin ID, First Name, Last Name or email was not supplied";
 }
 else
@@ -21,6 +22,7 @@ else
      }
      else
      {
+        header("refresh:2; url=addFaculty.php");
          echo "Error: " . $sql . "<br>" . $con->error;
      }
  }

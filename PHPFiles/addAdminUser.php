@@ -9,6 +9,7 @@ $tlevel = $_POST['tlevel'];
 require 'dbconfig.php';
 if ($adminID == null || $email == null || $fname == '' || $lname == '' )
 {
+    header("refresh:2; url=addAdmin.php");
     echo "Admin ID, First Name, Last Name or email was not supplied";
 }
 else
@@ -22,6 +23,7 @@ else
      }
      else
      {
+        header("refresh:2; url=addAdmin.php");
          echo "Error: " . $sql . "<br>" . $con->error;
      }
  }
