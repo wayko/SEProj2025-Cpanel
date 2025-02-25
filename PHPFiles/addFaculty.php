@@ -3,7 +3,7 @@
 
     if(!isset($_SESSION['loggedin']) || $_SESSION['loggedin'] !== true || !isset($_SESSION['adminUN']))
     {
-        header("location:/SEProj2025-Milestone/");
+        header("location:/~cpanel-username/SEProj2025-Milestone/");
 
     }
     else
@@ -34,7 +34,7 @@
           </div>
       </div>
     </nav>
-    <form action="PHPFiles/addFacultyMember.php" method="POST" class="row g-3 form-top center-margin" >
+    <form action="addFacultyMember.php" method="POST" class="row g-3 form-top center-margin" >
       <div class="form-group">
         <label for="facultyID">FacultyID:</label> <input type="text" name="facultyID" id="facultyID">
       </div>

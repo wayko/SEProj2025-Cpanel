@@ -3,7 +3,7 @@ session_start();
 
     if(!isset($_SESSION['loggedin']) || $_SESSION['loggedin'] !== true)
     {
-        header("location:/SEProj2025-Milestone/");
+        header("location:/~cpanel-username/SEProj2025-Milestone/");
 
     }
     else
