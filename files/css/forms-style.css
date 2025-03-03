@@ -1,3 +1,9 @@
+.wrapper-center
+{
+    margin: 30px auto;
+    width: 1024px;
+}
+
 .form-top
 {
     display: block ;

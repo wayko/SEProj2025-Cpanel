@@ -3,7 +3,7 @@
 
     if(!isset($_SESSION['loggedin']) || $_SESSION['loggedin'] !== true || !isset($_SESSION['adminUN']))
     {
-        header("location:/~cpanel-username/SEProj2025-Milestone/");
+        header("location:/~ortij41/SEProj2025-Milestone/");
 
     }
     else
@@ -22,7 +22,7 @@
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Trirong">   
   </head>
   <body>
-    <div class="container">
+    <div class="wrapper-center">
     <nav class="navbar navbar-default">
       <div class="container-fluid">
           <div class="navbar-header"> 
